@@ -1,0 +1,6 @@
+{
+    "name": "javiernindis1/ci-ppl",
+    "description": "Website PHP statis dengan Tailwind dan deploy ke GitHub Pages",
+    "license": "proprietary",
+    "require": {}
+}
