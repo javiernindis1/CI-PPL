@@ -33,11 +33,11 @@
             </div>
         </div>
 
-        <!-- <div class="mt-8 text-center">
+        <div class="mt-8 text-center">
             <button class="bg-indigo-600 text-white px-5 py-2 rounded-full hover:bg-indigo-700 transition">
                 Lihat Detail
             </button>
-        </div> -->
+        </div>
 
         <footer class="mt-6 text-xs text-gray-400 text-center">
             &copy; 2025 Universitas Trunojoyo Madura • Dibuat dengan ❤️ Dari javier
