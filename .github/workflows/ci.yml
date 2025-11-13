@@ -23,6 +23,9 @@ jobs:
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
 
+    - name: Set execute permission for phpunit
+      run: chmod +x vendor/bin/phpunit
+
     - name: Run Unit Tests
       run: composer run-script test
 
@@ -32,7 +35,4 @@ jobs:
         php src/index.php > build/index.html
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
+      uses: peace
